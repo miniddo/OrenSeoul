@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/search_life" >
+    </ImageView>
+
+    <Button
+        android:id="@+id/life1_click"
+        android:layout_width="990px"
+        android:layout_height="308px"
+        android:background="@drawable/search_life1"
+        android:layout_gravity="center" >
+    </Button>
+
+    <Button
+        android:id="@+id/life2_click"
+        android:layout_width="990px"
+        android:layout_height="308px"
+        android:background="@drawable/search_life2"
+        android:layout_gravity="center"
+        android:layout_marginTop="25sp"
+        android:layout_marginBottom="25sp">
+    </Button>
+
+    <Button
+        android:id="@+id/life3_click"
+        android:layout_width="990px"
+        android:layout_height="308px"
+        android:background="@drawable/search_life3"
+        android:layout_gravity="center" >
+    </Button>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/link"
+        android:adjustViewBounds="true"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="10sp"></ImageView>
+
+
+</LinearLayout>

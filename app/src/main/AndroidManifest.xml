@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.orenseoul">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo"
+        android:label="OrenSeoul"
+        android:roundIcon="@mipmap/app_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Funny3Activity"></activity>
+        <activity android:name=".Funny2Activity" />
+        <activity android:name=".Funny1Activity" />
+        <activity android:name=".Cafe3Activity" />
+        <activity android:name=".Cafe2Activity" />
+        <activity android:name=".Cafe1Activity" />
+        <activity android:name=".Life3Activity" />
+        <activity android:name=".Life2Activity" />
+        <activity android:name=".Life1Activity" />
+        <activity android:name=".Food3Activity" />
+        <activity android:name=".Food2Activity" />
+        <activity android:name=".Food1Activity" />
+        <activity android:name=".FunnyActivity" />
+        <activity android:name=".CafeActivity" />
+        <activity android:name=".LifeActivity" />
+        <activity android:name=".FoodActivity" />
+        <activity android:name=".CategoryActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

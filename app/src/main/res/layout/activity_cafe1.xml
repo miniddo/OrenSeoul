@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="1080px"
+                android:layout_height="1094px"
+                android:background="@null"
+                android:src="@drawable/cafe1_content"
+                android:layout_marginTop="20sp">
+            </ImageView>
+
+            <Button
+                android:id="@+id/cafe1_place"
+                android:layout_width="953px"
+                android:layout_height="613px"
+                android:background="@drawable/cafe1_place"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="20sp">
+            </Button>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
